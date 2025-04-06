@@ -1,0 +1,11 @@
+namespace: url-monitor
+
+image:
+  repository: dimitartsvetkov/infra-task1
+  tag: v1.0.0
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8000
+
